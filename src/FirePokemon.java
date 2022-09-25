@@ -34,6 +34,10 @@ public class FirePokemon extends Pokemon {
    void specialMove(String specialMove){
        System.out.println("This pokemons special move is: " +specialMove);
    }
+    void pokemonAvoidance(String avoidance){
+        System.out.println("This pokemon attempts to "+ avoidance);
+
+    }
 
     @Override
     public String toString() {
